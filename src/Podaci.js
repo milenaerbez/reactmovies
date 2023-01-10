@@ -1,0 +1,58 @@
+export const homeData = [
+    {
+      id: 1,
+      name: "Montevideo",
+      rating: 8.3,
+      time: "2hr : 22mins",
+      desc: "This is a story about Yugoslavian national football team and their journey to the first world championship in Montevideo.",
+      starring: "Milos Bikovic",
+      genres: "Adventure",
+      tags: "Comedy, Adventures",
+      cover: "https://m.media-amazon.com/images/M/MV5BYzVhOTI0NWEtNWQzNS00MmYyLWE1YmMtMWE2M2MzZWU5NTVmXkEyXkFqcGdeQXVyODkzODEzNTE@._V1_.jpg",
+      video: "../video/video1.mp4",
+      date: "2012",
+      amount:0
+    },
+    {
+      id: 2,
+      name: "Harry potter",
+      rating: 7.6,
+      time: "2hr : 22mins",
+      desc: "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts. ",
+      starring: "Daniel Redcliffe",
+      genres: "Action",
+      tags: "Adventures,Animation,Family",
+      cover: "https://cdn.europosters.eu/image/hp/79858.jpg",
+      video: "../video/video1.mp4",
+      date: "2007",
+      amount:0
+    },
+    {
+      id: 3,
+      name: "Titanic",
+      rating: 4.8,
+      time: "2hr : 22mins",
+      desc:"A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      starring: "Leonardo diCaprio",
+      genres: "Romance",
+      tags: "Drama, Romance ",
+      cover: "https://i.guim.co.uk/img/media/28e8d6f6407232ecf5a056afb064c35f225b2419/0_102_1760_1056/master/1760.jpg?width=620&quality=85&auto=format&fit=max&s=518e8024dd7af25eab7a5fbbebc2d7cb",
+      video: "../video/video1.mp4",
+      date: "1997",
+      amount:0
+    },
+    {
+      id: 4,
+      name: "Toma",
+      rating: 8.7,
+      time: "2hr : 22mins",
+      desc:"Biopic about Toma Zdravkovic, the man who is remembered not only for his songs and the unique way he sang them, but also as a bohemian, both in his behavior and his soul.",
+      starring: "Milan Maric",
+      genres: "Drama",
+      tags: "Tragedy, Drama",
+      cover: "https://media.boom93.rs/2021/09/Toma-film-990x557.jpg",
+      video: "../video/video1.mp4",
+      date: "2021",
+      amount:0
+    },
+  ]
