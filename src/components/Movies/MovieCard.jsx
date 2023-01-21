@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MovieCard = ({item: {id, cover, name, time}}) => {
+export const MovieCard = ({item: {id, cover, name, time}, onAdd}) => {
   return (
     <>
     <div className='MovieBox'>
@@ -11,7 +11,7 @@ export const MovieCard = ({item: {id, cover, name, time}}) => {
         <h3>{name}</h3>
         <span>{time}</span> <br /> 
         {/*<Link to={`/singlepage/${id}`}>*/}
-        <button className='primary-btn'  >
+        <button className='primary-btn' onClick={()=>onAdd(id)}  >
           <i className='fa fa-plus'></i> Add to cart
         </button>
         {/*</Link>*/}

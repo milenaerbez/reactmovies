@@ -14,7 +14,7 @@ export const Header = ({}) => {
     <Link to='/'>Home</Link>
     {/* <Link to='/series'>Series</Link> */}
     <Link to='/movies'>Movies</Link>
-    <Link to='/cart'>My list</Link>
+    
     {/* <Link to='/upcoming'>Upcoming</Link> */}
     
   

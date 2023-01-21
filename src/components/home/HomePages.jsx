@@ -10,7 +10,7 @@ const [items, setItems] = useState(homeData)
   return (
     <>
     <Homes />
-    <Movies items={items} title='Upcoming movies' />
+    {/* <Movies items={items} title='Upcoming movies' /> */}
     </>
   )
 }

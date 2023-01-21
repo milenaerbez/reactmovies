@@ -28,7 +28,7 @@ const SamplePrevArrow = (props) => {
 
 
 
-const Movies = ({ items, title }) => {
+const Movies = ({ items, title,onAdd }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -60,7 +60,7 @@ const Movies = ({ items, title }) => {
               {items.map((item) => {
                 return (
                   <>
-                    <MovieCard key={item.id} item={item}  />
+                    <MovieCard key={item.id} item={item} onAdd={onAdd}  />
                   </>
                 )
               })}
